@@ -37,6 +37,7 @@ NavBar{
 	text-decoration: none;
 	float:center;
 }
+
 a {
 	font-weight: bold;
 	text-decoration: none;
@@ -57,7 +58,14 @@ li{
 
 ul {
 	float: right;
-	padding-right: 50px;
-	width: 50%;
+	/*padding-right: 50px;*/
+	width: 44%;
 	
+}
+img {
+	height: 30px;
+	width: auto;
+	/*float: right;*/
+	
+	/*margin-right: 3%;*/
 }
