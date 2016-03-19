@@ -1,19 +1,4 @@
 
-/* Social Media Start*/
-#socialMedia {
-	width: 15%;
-	height: 90%;
-	padding-right: 5%;
-	padding-top: 5px;
-	float:right;
-}
-#socialMedia img {
-	height: 35px;
-	width: auto;
-	float: right;
-	max-width: 30%;
-	margin-right: 3%;
-}
 #facebook:hover, #wechat:hover{
 	opacity: 0.5;
 }
@@ -23,20 +8,13 @@
 #header {
 	width: 100%;
 	max-width: 100%;
-	height: 480px;
+	height: 65%;
 	position: relative;	
 	text-align:right;
 	background-image: url(images/fillerHeader.jpg);
 	background-size: 100%;
 }
 
-NavBar{
-	font-weight: normal;
-	font-style: normal;
-	font-size: 18px;
-	text-decoration: none;
-	float:center;
-}
 
 a {
 	font-weight: bold;
@@ -59,7 +37,7 @@ li{
 ul {
 	float: right;
 	/*padding-right: 50px;*/
-	width: 44%;
+	width: 45%;
 	
 }
 img {
