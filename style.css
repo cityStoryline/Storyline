@@ -3,12 +3,12 @@
 #socialMedia {
 	width: 15%;
 	height: 90%;
-	padding-right: 10%;
+	padding-right: 5%;
 	padding-top: 5px;
 	float:right;
 }
 #socialMedia img {
-	height: 50%;
+	height: 35px;
 	width: auto;
 	float: right;
 	max-width: 30%;
@@ -23,8 +23,8 @@
 #header {
 	width: 100%;
 	max-width: 100%;
-	height: 100px;
-	position: absolute;	
+	height: 480px;
+	position: relative;	
 	text-align:right;
 	background-image: url(images/fillerHeader.jpg);
 	background-size: 100%;
@@ -57,7 +57,7 @@ li{
 
 ul {
 	float: right;
-	width: 55.7%;
-	overflow: hidden;
+	padding-right: 50px;
+	width: 50%;
 	
 }
