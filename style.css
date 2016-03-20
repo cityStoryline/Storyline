@@ -1,36 +1,81 @@
-
-#facebook:hover, #wechat:hover{
-	opacity: 0.5;
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
 }
 
-/* Social Media End*/
+#facebook:hover, #wechat:hover{
+	/*opacity: 0.5;*/
+	transform: scale(1.2);
+}
 
-#header {
+
+.header {
 	width: 100%;
 	max-width: 100%;
 	height: 65%;
 	position: relative;	
-	text-align:right;
+	text-align:center;
 	background-image: url(images/fillerHeader.jpg);
 	background-size: 100%;
+
 }
 
+.layer {
+    background-color: rgba(30,28,28, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
-a {
+.description{
+	/*background-color: blue;*/
+
+	text-align:center;
+	position:absolute;
+	width:50%;
+
+	margin-top:10%;
+	margin-left: 25%;
+
+}
+
+#title{
+font-family: 'Avenir';
+	font-size:50px;
+	color:white;
+	margin-bottom: -3%;
+
+}
+
+#subtitle{
+font-family: 'Avenir';
+	font-size:30px;
+	color:white;
+
+}
+.header a {
 	font-weight: bold;
 	text-decoration: none;
-	color: white;
+	color: #e6e6e6;
 	letter-spacing: 1px;
 	font-family: 'Avenir';
 	font: 25px;
+
 }
 
+li:hover{
+	transform: scale(1.2);
+}
 
 li{
 	float: left;
 	padding-left: 3%;
 	padding-right:3%;
-	height: 90%;
+	height: 5%;
 	padding-top: 5px;
 }
 
