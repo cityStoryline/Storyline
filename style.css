@@ -1,8 +1,8 @@
-body {
+* {
  margin-top: 0px;
  margin-right: 0px;
  margin-bottom: 0px;
- margin-left: 0px
+ margin-left: 0px;
 }
 
 #facebook:hover, #wechat:hover{
@@ -15,20 +15,22 @@ body {
 	width: 100%;
 	max-width: 100%;
 	height: 65%;
-	position: relative;	
+	position: fixed;	
 	text-align:center;
 	background-image: url(images/fillerHeader.jpg);
 	background-size: 100%;
-
+	background-repeat: no-repeat;
 }
 
-.layer {
+.header .layer {
+	width: 100%;
+	max-width: 100%;
+	height: 65%;
+	position: fixed;
     background-color: rgba(30,28,28, 0.4);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
 
 .description{
@@ -37,23 +39,28 @@ body {
 	text-align:center;
 	position:absolute;
 	width:50%;
-
+	resize:both;
+	overflow: hidden;
 	margin-top:10%;
 	margin-left: 25%;
 
 }
 
-#title{
+.description #title{
 font-family: 'Avenir';
+font-size-adjust: 0.58;
 	font-size:50px;
+	font-size: 4vw;
 	color:white;
 	margin-bottom: -3%;
 
 }
 
-#subtitle{
+.description #subtitle{
 font-family: 'Avenir';
+font-size-adjust: 0.58;
 	font-size:30px;
+	font-size: 2vw;
 	color:white;
 
 }
