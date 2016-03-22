@@ -46,7 +46,7 @@ nav{
 nav ul {
 	list-style-type: none;
 	float: right;
-	width: 38%;
+	width: 35%;
 }
 
 nav ul li{
@@ -108,7 +108,7 @@ font-size-adjust: 0.58;
 	color: #e6e6e6;
 	letter-spacing: 1px;
 	font-family: 'Avenir';
-	font: 25px;
+	font-size: 20px;
 
 }
 
