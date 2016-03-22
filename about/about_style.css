@@ -10,24 +10,12 @@
 	transform: scale(1.2);
 }
 
-
-.header {
+.layer {
 	width: 100%;
 	max-width: 100%;
-	height: 65%;
-	position: fixed;	
-	text-align:center;
-	background-image: url(images/fillerHeader.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-
-.header .layer {
-	width: 100%;
-	max-width: 100%;
-	height: 65%;
+	height: 5%;
 	position: fixed;
-    background-color: rgba(30,28,28, 0.4);
+    background-color: black;
     background-size: 100%;
     background-repeat: no-repeat;
     
@@ -70,39 +58,8 @@ nav ul img {
 	
 	/*margin-right: 3%;*/
 }
-.description{
-	/*background-color: blue;*/
 
-	text-align:center;
-	position:absolute;
-	width:50%;
-	resize:both;
-	overflow: hidden;
-	margin-top:10%;
-	margin-left: 25%;
-
-}
-
-.description #title{
-font-family: 'Avenir';
-font-size-adjust: 0.58;
-	font-size:50px;
-	font-size: 4vw;
-	color:white;
-	margin-bottom: -3%;
-
-}
-
-.description #subtitle{
-font-family: 'Avenir';
-font-size-adjust: 0.58;
-	font-size:30px;
-	font-size: 2vw;
-	color:white;
-
-}
-
-.header a {
+.layer a {
 	font-weight: bold;
 	text-decoration: none;
 	color: #e6e6e6;
@@ -111,8 +68,3 @@ font-size-adjust: 0.58;
 	font: 25px;
 
 }
-
-/*.navbar li:hover{
-	transform: scale(1.2);
-}*/
-
