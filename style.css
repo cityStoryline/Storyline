@@ -46,7 +46,7 @@ nav{
 nav ul {
 	list-style-type: none;
 	float: right;
-	width: 35%;
+	width: 38%;
 }
 
 nav ul li{
@@ -109,7 +109,7 @@ font-size-adjust: 0.58;
 	letter-spacing: 1px;
 	font-family: 'Avenir';
 	font-size: 20px;
-
+	font-size: 1vw;
 }
 
 /*.navbar li:hover{
