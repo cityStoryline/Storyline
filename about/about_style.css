@@ -19,6 +19,7 @@
     background-repeat: no-repeat;
     display:inline-block;*/
    background-color: white;
+   opacity: 0.95;
 	padding-left: auto;
 	padding-right: auto;
 	width: 100%;	
@@ -44,11 +45,11 @@
 }
 
 .layer nav ul {
-	background-color: red;
+
 	list-style-type: none;
 	float: right;
 	margin-right: -50px;
-	width: 45%;
+	width: 52%;
 }
 
 .layer nav ul li{
@@ -57,12 +58,12 @@
 	padding-left: 2%;
 	padding-right: 2.5%;
 	height: 5%;
-	padding-top: 5px;
+	padding-top: 7px;
 }
 
 .layer nav ul li:hover{
 
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .layer nav ul img {
@@ -85,23 +86,50 @@
 
 #wrapper {
 	margin-top: 3%;
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	background-repeat: none;
 	overflow:hidden;
-	background-color: green;
+	background-color: #d9e6f2;
 }
-
 
 
 .ourStory{
 /*background-color: yellow;*/
 text-align: left;
 	font-family: 'Avenir';
-	font-size: 18px;
+	/*font-size: 18px;*/
 	padding-right: 15%; 
 	padding-left: 15%;
+	padding-top: 5%;
+
+}
+
+subtitle{
+	font-family: 'Avenir';
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+}
+
+text {
+	font-family: 'Avenir';
+	font-size: 20px;
+}
+
+tabletitle{
+	font-family: 'Avenir';
+	font-size: 22px;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+
+}
+
+tabletext{
+	font-family: 'Avenir';
+	font-size: 14px;
+
 }
 
 .ourFeatures{
@@ -111,10 +139,12 @@ text-align: left;
 	font-size: 18px;
 	padding-right: 15%; 
 	padding-left: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .ourFeatures table{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	text-align: center;
 	width:100%;
 	height:50%;
@@ -122,21 +152,29 @@ text-align: left;
 
 .ourFeatures table td{
 	width:50%;
-	border:10px solid black;
+	border:hidden;
 }
 
 .ourFeatures table td .words{
 	float:right;
-	background-color: blue;
-	width:70%;
+	background-color: #d9e6f2;
+	width:60%;
 }
+
+
+#icon {
+	width: 23%;
+	float: center;
+
+}
+
+
 .ourTeam{
 
 	background-color: yellow;
 	position:absolute;
 	width:70%;
 	resize:both;
-
 	margin-top:45%;
 	margin-left: 15%;
 	font-family: 'Avenir';
@@ -147,17 +185,19 @@ body {
 	position: relative;
 	margin: 0px;
 	padding-top: 0px;
+	background-color: #d9e6f2;
 }
 
 footer {
 	bottom: 0;
+	font-family: 'Avenir';
 	position: relative;
 	font-size: 12px;
 	text-align:center;
 	width: 90%;
 	height: 5%;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	float: center;
 	margin-left: 5%;
 }
