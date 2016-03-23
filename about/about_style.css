@@ -11,49 +11,61 @@
 }
 
 .layer {
-	background-color: white;
-	width: 100%;
-	max-width: 100%;
+
+	/*max-width: 100%;
 	height: 5%;
-	position: fixed;
-    z-index: 5;
-    background-size: 100%;
+	
+       background-size: 100%;
     background-repeat: no-repeat;
-    display:inline-block;
+    display:inline-block;*/
+   background-color: white;
+	padding-left: auto;
+	padding-right: auto;
+	width: 100%;	
+	height: 5%;
+	position:fixed;
+	top:0;
 }
 
-nav{
-	
+.layer nav{
+	/*background-color: black;
+	display:block;
+	width:100%;
+
+	float:right;
+	position:fixed;*/
 	display:block;
 	width:100%;
 	float:right;
-
+	
 	position:fixed;
 	float:right;
 
 }
 
-nav ul {
+.layer nav ul {
+	background-color: red;
 	list-style-type: none;
 	float: right;
-	width: 38%;
+	margin-right: -50px;
+	width: 45%;
 }
 
-nav ul li{
+.layer nav ul li{
 	float:left;
 	display:inline;
-	padding-left: 3%;
-	padding-right: 3%;
+	padding-left: 2%;
+	padding-right: 2.5%;
 	height: 5%;
 	padding-top: 5px;
 }
 
-nav ul li:hover{
+.layer nav ul li:hover{
 
 	transform: scale(1.2);
 }
 
-nav ul img {
+.layer nav ul img {
 	height: 3%;
 	width:auto;
 	/*float: right;*/
@@ -68,32 +80,37 @@ nav ul img {
 	letter-spacing: 1px;
 	font-family: 'Avenir';
 	font-size: 20px;
-	font-size: 1vw;
+	font-size: 1.28vw;
 }
 
-.ourStory{
-background-color: yellow;
-/*text-align:center;*/
-	position:absolute;
-	width:70%;
-	resize:both;
+#wrapper {
+	margin-top: 3%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: none;
+	overflow:hidden;
+	background-color: green;
+}
 
-	margin-top:5%;
-	margin-left: 15%;
+
+
+.ourStory{
+/*background-color: yellow;*/
+text-align: left;
 	font-family: 'Avenir';
-	display:inline-block;
+	font-size: 18px;
+	padding-right: 15%; 
+	padding-left: 15%;
 }
 
 .ourFeatures{
-	background-color: yellow;
-	position:absolute;
-	width:70%;
-	resize:both;
-
-	margin-top:30%;
-	margin-left: 15%;
+	/*background-color: yellow;*/
+	text-align: left;
 	font-family: 'Avenir';
-	display:inline-block;
+	font-size: 18px;
+	padding-right: 15%; 
+	padding-left: 15%;
 }
 
 .ourFeatures table{
@@ -124,4 +141,23 @@ background-color: yellow;
 	margin-left: 15%;
 	font-family: 'Avenir';
 	display:inline-block;
+}
+
+body {
+	position: relative;
+	margin: 0px;
+	padding-top: 0px;
+}
+
+footer {
+	bottom: 0;
+	position: relative;
+	font-size: 12px;
+	text-align:center;
+	width: 90%;
+	height: 5%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	float: center;
+	margin-left: 5%;
 }
