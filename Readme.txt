@@ -1,9 +1,11 @@
-#TODO LIST This week
+TODO LIST This week
 
-- Format Style on about.html and index.html
-* Larger font in about.html
-* Increase margin-top and margin-right of navbar
+1. Format Style on about.html and index.html
+  - Larger font in about.html
+  - Increase margin-top and margin-right of navbar
 
-- Working on “Map of the city” (hover)
+2.  Working on “Map of the city” (hover)
 
-- Writing comments on existed code
+3. Keep working on about.html
+
+4.  Writing comments on existed code
