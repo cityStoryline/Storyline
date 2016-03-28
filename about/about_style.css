@@ -1,8 +1,8 @@
 * {
- margin-top: 0px;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 }
 
 #facebook:hover, #wechat:hover{
@@ -18,14 +18,14 @@
        background-size: 100%;
     background-repeat: no-repeat;
     display:inline-block;*/
-   background-color: white;
-   opacity: 0.95;
-	padding-left: auto;
-	padding-right: auto;
-	width: 100%;	
-	height: 5%;
-	position:fixed;
-	top:0;
+    background-color: white;
+    opacity: 0.95;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;	
+    height: 5%;
+    position:fixed;
+    top:0;
 }
 
 .layer nav{
@@ -96,8 +96,8 @@
 
 
 .ourStory{
-/*background-color: yellow;*/
-text-align: left;
+	/*background-color: yellow;*/
+	text-align: left;
 	font-family: 'Avenir';
 	/*font-size: 18px;*/
 	padding-right: 15%; 
@@ -188,20 +188,46 @@ tabletext{
 }
 
 .profile {
-	width:20%;
+	/*width:20%;
 	display: inline;
+	
+
+	float: center;*/
 	margin-top: 10%;
 	margin-right: 5%;
+	position: relative;
+	display:inline;
+ /* height: 200px;
+ width: 257px;*/
 
-	float: center;
+}
 
+.profile p{
+
+	font-family: 'Avenir';
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-top: -75%;
+	text-align: center;
+	/*background: rgba(29, 106, 154, 0.72);*/
+	visibility: hidden;
+	opacity: 0;
+}
+
+.profile:hover p {
+	visibility: visible;
+	opacity: 1;
 }
 
 .profile img{
-
 	width:20%;
 }
-
 .profile:hover img{
 	opacity: 0.3;
 	/*border-radius:50%;*/
@@ -223,7 +249,7 @@ body {
 }
 
 footer {
-		margin-top: 10%;
+	margin-top: 10%;
 	bottom: 0;
 	font-family: 'Avenir';
 	position: relative;

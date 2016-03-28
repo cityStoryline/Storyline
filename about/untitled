@@ -1,0 +1,31 @@
+<div class="profile">
+				<figure>
+					<img src="images/Bill.png" alt="Bill Chan"> 
+					<figurecaption><p>I'm Bill CHan</p> </figurecaption>
+				</figure>
+				<!-- <h2>Moviea</h2> -->
+		</div>
+
+			<!-- </td> -->
+		<!-- member2 -->
+
+			<!-- <td> -->
+			<div class="profile">
+				<img src="images/jason.png"> 
+		</div>
+
+
+			<!-- </td> -->
+		<!-- member3 -->
+			<!-- <td> -->
+			<div class="profile">
+				<img src="images/jo.png"> 
+		</div>
+
+
+			<!-- </td> -->
+		<!-- member4 -->
+			<!-- <td> -->
+			<div class="profile">
+				<img src="images/brian.png"> 
+		</div>
