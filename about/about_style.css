@@ -203,6 +203,9 @@ tabletext{
  width: 257px;*/
 
 }
+.profile a{
+	text-decoration: none;
+}
 
 .profile p{
 
