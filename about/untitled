@@ -1,31 +1,12 @@
-<div class="profile">
-				<figure>
-					<img src="images/Bill.png" alt="Bill Chan"> 
-					<figurecaption><p>I'm Bill CHan</p> </figurecaption>
-				</figure>
-				<!-- <h2>Moviea</h2> -->
-		</div>
-
-			<!-- </td> -->
-		<!-- member2 -->
-
-			<!-- <td> -->
-			<div class="profile">
-				<img src="images/jason.png"> 
-		</div>
-
-
-			<!-- </td> -->
-		<!-- member3 -->
-			<!-- <td> -->
-			<div class="profile">
-				<img src="images/jo.png"> 
-		</div>
-
-
-			<!-- </td> -->
-		<!-- member4 -->
-			<!-- <td> -->
-			<div class="profile">
-				<img src="images/brian.png"> 
-		</div>
+<?php
+    $BASE_URL = "http://query.yahooapis.com/v1/public/yql";
+    $yql_query = 'select wind from weather.forecast where woeid in (select woeid from geo.places(1) where text="chicago, il")';
+    $yql_query_url = $BASE_URL . "?q=" . urlencode($yql_query) . "&format=json";
+    // Make call with cURL
+    $session = curl_init($yql_query_url);
+    curl_setopt($session, CURLOPT_RETURNTRANSFER,true);
+    $json = curl_exec($session);
+    // Convert JSON to PHP object
+     $phpObj =  json_decode($json);
+    var_dump($phpObj);
+?>
