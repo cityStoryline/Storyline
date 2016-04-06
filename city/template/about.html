@@ -1,0 +1,159 @@
+{% extends 'public/base.html' %}
+{% load staticfiles %}
+{% block style %}<link rel="stylesheet" href={% static "css/about_style.css"%}>{% endblock %}
+{% block content %}
+<div id="wrapper">
+	
+<br> <br> <br>
+<br> <br> <br>
+<br> 
+	<div class="ourStory">
+
+		<p>
+			<subtitle>我们的故事</subtitle>
+			<br><br><br>
+			<text>一个城市有多有趣不是在于那个城市本身，而是在于旅行者对他的了解有多深。换句话说，每一个城市都可以很有趣，只要你多听一点关于她的故事，不要犯傻呵呵。</text>
+			<br><br>
+			<text>步行观光让你一边走一边听城市的故事，了解每个地点的历史和意义。</text>
+			<br><br>
+			<text>所以我们希望为旅客提供一个更有深度和内涵的旅游方式，这就是我们创立步行城市City Storyline的原因。</text>
+
+		</p>
+
+	</div>
+
+	<br> <br> <br>
+
+	<div class="ourFeatures">
+
+		<subtitle> 我们的特色</subtitle>
+		<br><br><br>
+		<table>
+			<tr>
+				<td>
+					<img src={% static "images/circle-outline.png" %} id="icon">
+
+					<div class="words">
+						<p>
+							<br>
+							<tabletitle>热情、专业的导游</tabletitle>
+							<br><br>
+							
+							<tabletext>我们每一个导游都友善，有热情，有活力，熟识路线。他们还会经过长时间训练。我们知道一个好导游的重要性。</tabletext>
+
+						</p>
+					</div>
+				</td>
+				<td>
+					<img src={% static "images/clock.png" %} id="icon">
+
+					<div class="words">
+						<p>
+							<br>
+							<tabletitle>弹性时间</tabletitle>
+							<br><br>
+							<tabletext>旅行者们大多数喜欢自由，不喜欢被束缚。我们每天都有固定行程，每个行程大约2小时，肯定有一个适合你的旅程</tabletext>
+
+						</p>
+					</div></td>
+			</tr>
+			<tr>
+				<td>
+					<img src={% static "images/circle-outline.png" %} id="icon">
+
+					<div class="words">
+						<p>
+							<br>
+							<tabletitle>买票，退票方便快捷</tabletitle>
+							<br> <br> 
+							<tabletext>我们的网上购票系统操作方便，支持多种支付方式：支付宝，Visa， PAYPAL。旅程开始前一小时退票我们全额退款。</tabletext>
+
+						</p>
+					</div></td>
+				<td>
+					<img src={% static "images/circle-outline.png" %} id="icon">
+
+					<div class="words">
+						<p>
+							<br>
+							<tabletitle>性价比高</tabletitle>
+							<br><br>
+							<tabletext>步行旅游可以让游客在短时间内深入了解一个城市，两个小时的旅程最多可包含二十个景点。我们的收费是同类产品最便宜的。</tabletext>
+
+						</p>
+					</div></td>
+			</tr>
+		</table>
+	</div>
+
+	<br> <br> <br>
+<!-- 
+	<div class = "circle">
+	</div> -->
+	<div class="ourTeam">
+		<subtitle> 我们的团队</subtitle>
+		<br><br><br>
+		<!-- member1 -->
+		<!-- <td> -->
+		<!-- <div id="imglayer"> -->
+			<div class="profile">
+				<img src={% static "images/Bill.png" %}> 
+				<p><b>Bill</b><br><br>
+				CEO & Cofounder<br><br>
+			<a href="https://www.linkedin.com/in/billchan1" target="_blank">	
+			<img src={% static "images/linkedin.png" %}>
+		</a>
+			<img src={% static "images/twitter.png" %}></p> 
+		</div>
+
+			<!-- </td> -->
+		<!-- member2 -->
+
+			<!-- <td> -->
+			<div class="profile">
+				<img src={% static "images/jason.png" %}> 
+				<p><b>Jason</b><br><br>
+					Web Developer<br><br>
+
+				<a href="http://github.com/jasondou" target="_blank">
+					<img src={% static "images/github.png" %}>
+				</a>
+					<img src={% static "images/email.png" %}> </p>
+		</div>
+
+
+			<!-- </td> -->
+		<!-- member3 -->
+			<!-- <td> -->
+			<div class="profile">
+				<img src={% static "images/jo.png" %}> 
+				<p><b>Jo</b><br><br>
+					Web Developer<br><br>
+			<a href="https://www.linkedin.com/in/ruyi-deng-3a58b066" target="_blank">
+			<img src={% static "images/linkedin.png" %}>
+		</a>
+			<a href="http://github.com/Indigo-5A" target="_blank">
+				<img src={% static "images/github.png" %}>
+			</a>
+		</p> 
+		</div>
+
+
+			<!-- </td> -->
+		<!-- member4 -->
+			<!-- <td> -->
+			<div class="profile">
+				<img src={% static "images/brian.png" %}>
+				<p><b>Brian</b><br><br>
+					Web Developer<br><br>
+			<img src={% static "images/linkedin.png" %}>
+			<img src={% static "images/twitter.png" %}></p> 
+		</div>
+
+
+			<!-- </td> -->
+	<!-- </div> -->
+
+
+</div>
+{% endblock %}

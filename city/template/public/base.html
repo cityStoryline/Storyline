@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	{% block style %}{% endblock %}
+</head>
+<body>
+    {% block headstyle %}{% endblock %}
+        <div class="layer">
+        <nav>
+            <ul>
+
+            <li><a href="/">返回主页</a></li>
+            <li><a href="/about_us">我们的故事</a></li>
+            <li><a href="/help">常见问题</a></li>
+            <li><a href="/joinus">加入我们</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><img src={% static "images/facebook.png" %} width="10%" id="facebook"></li>
+            <li><img src={% static "images/wechat.png" %} width="10%" id="wechat"></li>
+
+            </ul>
+
+        </nav>
+        </div>
+    {% block content %}{% endblock %}
+    <footer>
+	    <p>条款及细则。版权所有(C) City Storyline Inc.</p>
+    </footer>
+</body>
+</html>

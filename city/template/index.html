@@ -1,0 +1,13 @@
+{% extends 'public/base.html' %}
+{% load staticfiles %}
+
+{% block style %}<link rel="stylesheet" href={% static "css/style.css" %}>{% endblock %}
+{% block headstyle %}<div class="header">{% endblock %}
+{% block content %}
+    <div class="description" >
+        <p id="title">步行。城市。故事</p>
+        <br>
+        <p id="subtitle">我们希望把步行观光文化带给中国游客。大约两小时的旅程，沿途听听城市的大小故事。</p>
+    </div>
+</div>
+{% endblock %}
