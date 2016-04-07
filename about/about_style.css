@@ -19,11 +19,11 @@
 	/*background-image: url(images/ourstory.jpg);*/
 
 	text-align:left;
-	position:absolute;
+	position:static;
 	width:80%;
 	resize:both;
 	overflow: hidden;
-	margin-top:8%;
+	/*margin-top:8%;*/
 	margin-left: 5%;
 
 }
@@ -193,11 +193,12 @@ tabletext{
 .ourFeatures{
 	width: 100%;
 	opacity: 0.95;
-
+	position:relative;
 	background-color: #193366;
 	text-align: left;
 	font-family: 'Avenir';
 	font-size: 18px;
+	overflow:hidden;
 	/*padding-right: 15%; */
 	
 	/*padding-top: 5%;*/
