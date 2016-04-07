@@ -4,7 +4,48 @@
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+.header {
+	width: 100%;
+	max-width: 100%;
+	height: 80%;
+	/*position: fixed;	*/
+	text-align:center;
+	background-image: url(images/ourstory.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
 
+.description{
+	/*background-image: url(images/ourstory.jpg);*/
+
+	text-align:left;
+	position:absolute;
+	width:80%;
+	resize:both;
+	overflow: hidden;
+	margin-top:8%;
+	margin-left: 5%;
+
+}
+
+.description #title{
+font-family: 'Avenir';
+font-size-adjust: 0.58;
+	font-size:50px;
+	font-size: 4vw;
+	color:white;
+	margin-top: 20%;
+
+}
+
+.description #subtitle{
+font-family: 'Avenir';
+font-size-adjust: 0.58;
+	font-size:30px;
+	font-size: 2vw;
+	color:white;
+
+}
 #facebook:hover, #wechat:hover{
 	/*opacity: 0.5;*/
 	transform: scale(1.2);
@@ -18,12 +59,12 @@
        background-size: 100%;
     background-repeat: no-repeat;
     display:inline-block;*/
-    background-color: white;
-    opacity: 0.95;
+    background-color: black;
+    /*opacity: 0.95;*/
     padding-left: auto;
     padding-right: auto;
     width: 100%;	
-    height: 5%;
+    height: 10%;
     position:fixed;
     top:0;
 }
@@ -47,8 +88,8 @@
 .layer nav ul {
 
 	list-style-type: none;
-	float: right;
-	margin-right: -50px;
+	float: center;
+	margin-left: 27%;
 	width: 52%;
 }
 
@@ -58,7 +99,7 @@
 	padding-left: 2%;
 	padding-right: 2.5%;
 	height: 5%;
-	padding-top: 7px;
+	padding-top: 4%;
 }
 
 .layer nav ul li:hover{
@@ -76,46 +117,50 @@
 
 .layer a {
 	font-weight: bold;
+
 	text-decoration: none;
-	color: black;
-	letter-spacing: 1px;
+	color: white;
+	letter-spacing: 2px;
 	font-family: 'Avenir';
-	font-size: 20px;
-	font-size: 1.28vw;
+	/*font-size: 20px;*/
+	font-size: 1.45vw;
 }
 
 #wrapper {
-	margin-top: 3%;
+	margin-top: 5.5%;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	background-repeat: none;
 	overflow:hidden;
-	background-color: #d9e6f2;
+	background-color: white;
 }
 
-
+.container{
+	/*padding-left: 6%;*/
+	background-color: white;
+	height: 100%;
+}
 .ourStory{
-	/*background-color: yellow;*/
+	float: right;
+	width: 38%;
+	background-color: white;
 	text-align: left;
 	font-family: 'Avenir';
 	/*font-size: 18px;*/
-	padding-right: 15%; 
-	padding-left: 15%;
-	padding-top: 5%;
+	padding-right: 8%; 
+	/*padding-left: 60%;*/
+	/*padding-top: 5%;*/
 
 }
 
-subtitle{
-	font-family: 'Avenir';
-	font-weight: bold;
-	font-size: 30px;
-	letter-spacing: 1.5px;
-}
 
-text {
+
+.outStory text {
+	/*padding-right: 24%; */
+	margin-left: 50%;
 	font-family: 'Avenir';
-	font-size: 20px;
+	font-size: 25px;
 }
 
 tabletitle{
@@ -132,22 +177,41 @@ tabletext{
 
 }
 
+.leftImage{
+	width:20%;
+	padding-left: 10%;
+	padding-top: 10%;
+	padding-right: 10%;
+	/*background-image: url(images/fillerSide.jpg);*/
+}
+
+#left{
+	width: 160%;
+	float: center;
+}
+
 .ourFeatures{
-	/*background-color: yellow;*/
+	width: 100%;
+	opacity: 0.95;
+
+	background-color: #193366;
 	text-align: left;
 	font-family: 'Avenir';
 	font-size: 18px;
-	padding-right: 15%; 
-	padding-left: 15%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	/*padding-right: 15%; */
+	
+	/*padding-top: 5%;*/
+	/*padding-bottom: 5%;*/
+	/*padding-right: auto;*/
 }
 
 .ourFeatures table{
-	
+	/*border:1px solid black;*/
 	text-align: center;
-	width:100%;
-	height:50%;
+	width:70%;
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .ourFeatures table td{
@@ -157,16 +221,21 @@ tabletext{
 }
 
 .ourFeatures table td .words{
-	float:right;
-	background-color: #d9e6f2;
-	width:60%;
+	/*float:right;*/
+	margin-left: 30%;
+	/*background-color: white;*/
+	width:59%;
+	color: white;
 
 }
 
 
 #icon {
+	margin-top: 5%;
+	/*background-color: yellow;*/
 	width: 23%;
-	float: center;
+	float: left;
+	/*margin-right: -10%;*/
 
 }
 
@@ -251,7 +320,7 @@ body {
 	position: relative;
 	margin: 0px;
 	padding-top: 0px;
-	background-color: #d9e6f2;
+	background-color: white;
 }
 
 footer {
