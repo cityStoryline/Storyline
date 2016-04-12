@@ -1,25 +1,25 @@
-<html> 
+<html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" href="style.css">
-
+	<script type="text/javascript" src = "script.js"></script>
 </head>
 <body>
 
-	
+
 		<div class="header">
 			<div class="layer">
-   
+
 			<nav>
 				<ul>
-                    
+
                 	<li><a href="about/about.html">我们的故事</a></li>
                 	<li><a href="qa/qa.html">常见问题</a></li>
                 	<li><a href="joinus/joinus.html">加入我们</a></li>
                 	<li><a href="">联系我们</a></li>
                 	<li><img src="images/facebook_icon.png" width="10%" id="facebook"></li>
                 	<li><img src="images/wechat.png" width="10%" id="wechat"></li>
-                
+
                 </ul>
 
             </nav>
@@ -33,9 +33,26 @@
 
         </div>
         <div class="content">
-                <div>
 
-    
+					<div class="tour">
+						<div class="tab">
+								<button onclick="SwapDivsWithClick('description1');" class="tab1">路径</button>
+								<button onclick="SwapDivsWithClick('description2');" class="tab2">导游</button>
+						</div>
+
+						<div class="path_tourguide">
+							<div id="description1">
+								<!-- <img src="images/fillerHeader.jpg"> -->
+							</div>
+							<div id="description2">
+								<!-- <img src="images/wechat.png"> -->
+							</div>
+						</div>
+					</div>
+
+        <div>
+
+
 
 </body>
 </html>

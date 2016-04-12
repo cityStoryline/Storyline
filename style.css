@@ -19,7 +19,7 @@ body{
 	width: 100%;
 	max-width: 100%;
 	height: 65%;
-	position: fixed;	
+	position:fixed;
 	text-align:center;
 	background-image: url(images/fillerHeader.jpg);
 	background-size: 100%;
@@ -34,14 +34,14 @@ body{
     background-color: rgba(30,28,28, 0.4);
     background-size: 100%;
     background-repeat: no-repeat;
-    
+
 }
 
 nav{
 	display:block;
 	width:100%;
 	float:right;
-	
+
 	position:fixed;
 	float:right;
 
@@ -71,14 +71,14 @@ nav ul img {
 	height: 3%;
 	width:auto;
 	/*float: right;*/
-	
+
 	/*margin-right: 3%;*/
 }
 .description{
 	/*background-color: blue;*/
 
 	text-align:center;
-	position:absolute;
+	position:relative;
 	width:50%;
 	resize:both;
 	overflow: hidden;
@@ -116,7 +116,44 @@ font-size-adjust: 0.58;
 	font-size: 1.28vw;
 }
 
+.content{
+  position:relative;
+  margin-top: 40%;
+  width:100%;
+}
+
+.tour{
+  position:relative;
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.tab{
+  text-align: right;
+  margin-right:
+}
+
+.path_tourguide{
+  /*background-color: black;*/
+  position:relative;
+  height:100%;
+}
+
+.path_tourguide #description1{
+  display: block;
+  background-color: blue;
+  position:relative;
+  height:50%;
+}
+
+.path_tourguide #description2{
+  background-color: yellow;
+  position:relative;
+  height:50%;
+  display:none;
+}
 /*.navbar li:hover{
 	transform: scale(1.2);
 }*/
-
