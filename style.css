@@ -127,7 +127,8 @@ font-size-adjust: 0.58;
   width:70%;
   margin-left: auto;
   margin-right: auto;
-  background-color: black;
+  height:200px;
+  /*background-color: black;*/
 }
 
 .tab{
@@ -138,17 +139,31 @@ font-size-adjust: 0.58;
 .path_tourguide{
   /*background-color: black;*/
   position:relative;
-  height:100%;
+  height:50%;
 }
 
-.path_tourguide #description1{
+.path_tourguide #path1{
   display: block;
   background-color: blue;
   position:relative;
   height:50%;
 }
 
-.path_tourguide #description2{
+.path_tourguide #path2{
+  display: block;
+  background-color: blue;
+  position:relative;
+  height:50%;
+}
+
+.path_tourguide #tourguide1{
+  background-color: yellow;
+  position:relative;
+  height:50%;
+  display:none;
+}
+
+.path_tourguide #tourguide1{
   background-color: yellow;
   position:relative;
   height:50%;
